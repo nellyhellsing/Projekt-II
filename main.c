@@ -1,21 +1,21 @@
 /********************************************************************************
-* main.c: Implementering av en tillståndsmaskin för tre lysdioder, som kan
-          befinna sig i fem tillstånd: 
+* main.c: Implementering av en tillstÃ¥ndsmaskin fÃ¶r tre lysdioder, som kan
+          befinna sig i fem tillstÃ¥nd: 
                                       - STATE_OFF
-									  - STATE_SLOW
-									  - STATE_MEDIUM
-									  - STATE_FAST
-									  - STATE_ON
+				      - STATE_SLOW
+				      - STATE_MEDIUM
+				      - STATE_FAST
+				      - STATE_ON
 									  
-*          Fem tryckknappar som uppdaterar lysdiodernas tillstånd:
-           ett hopp framåt, ett hopp bakåt, två hopp framåt, två hopp bakåt
+*          Fem tryckknappar som uppdaterar lysdiodernas tillstÃ¥nd:
+           ett hopp framÃ¥t, ett hopp bakÃ¥t, tvÃ¥ hopp framÃ¥t, tvÃ¥ hopp bakÃ¥t
 		   eller reset.
 ********************************************************************************/
 #include "header.h"
 
 
 /********************************************************************************
-* main: startpunkten i koden. Programmet körs så länge det finns matningsspänning.
+* main: startpunkten i koden. Programmet kÃ¶rs sÃ¥ lÃ¤nge det finns matningsspÃ¤nning.
 ********************************************************************************/
 int main(void)
 {
